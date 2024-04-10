@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve@latest out",
-    "lint": "next lint"
+    "start": "next start",
+    "lint": "next lint",
+    "amplify:publish": "npm run build && amplify publish",
+    "predeploy": "npm run build",
+    "deploy": "amplify publish"
   },
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
