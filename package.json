@@ -6,10 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "amplify:publish": "npm run build && amplify publish",
-    "predeploy": "npm run build",
-    "deploy": "amplify publish"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
